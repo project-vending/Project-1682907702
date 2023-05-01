@@ -1,0 +1,7 @@
+python
+file_path = './data-lake/clean/data.txt'
+
+with open(file_path, 'r') as file:
+    data = file.read()
+
+print(data)
