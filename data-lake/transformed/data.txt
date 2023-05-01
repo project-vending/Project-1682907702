@@ -1,0 +1,8 @@
+
+file_path = "./data-lake/transformed/data.txt"
+
+with open(file_path, "r") as file:
+    # Read the contents of the file
+    contents = file.read()
+    # Print the contents of the file
+    print(contents)
